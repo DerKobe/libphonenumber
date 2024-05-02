@@ -1,4 +1,4 @@
- <!-- Copyright (C) 2009 The Libphonenumber Authors
+ <!-- Copyright (C) 2009-2024 The Libphonenumber Authors
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -8472,9 +8472,8 @@
           )\d{3,12}
         </nationalNumberPattern>
       </fixedLine>
-      <!-- According to
-           https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Nummerierung/Rufnummern/NP_Nummernraum.pdf?__blob=publicationFile&v=4
-           numbers can be up to 13 digits long.
+      <!-- Numbers can be up to 13 digits long according to the PDF at
+           https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Nummerierung/Rufnummern/NP_Nummernraum.pdf
            The ranges 15[056] have been removed from the ITU doc, but information found online
            indicates that they may still be working.
            Note corresponding voicemail prefixes should be updated as well if new prefixes are
